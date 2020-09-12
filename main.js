@@ -28,5 +28,7 @@ function atribuirEventos(){
 
 //Inserir um número no display da calculadora
 function inserirNumero(){
-    console.log("Botão Clicado");
+    if(isNaN(inputResultado.value)){
+        inputResultado.value = event.target.textContent;
+    }
 }
