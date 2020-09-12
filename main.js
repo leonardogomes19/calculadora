@@ -31,4 +31,8 @@ function inserirNumero(){
     if(isNaN(inputResultado.value)){
         inputResultado.value = event.target.textContent;
     }
-}
+
+app.listen(process.env.PORT || 3333, () => {
+    console.log("Servidor iniciado");
+})
+};
