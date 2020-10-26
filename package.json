@@ -1,8 +1,0 @@
-{
-  "name": "Calculadora",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/leoribb19/calculadora.git",
-  "author": "Leonardo Gomes Ribeiro <leogomesribeiro2017@gmail.com>",
-  "license": "MIT"
-}
